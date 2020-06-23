@@ -41,23 +41,7 @@ social-network-links:
   email: "sonny.fournier@epitech.eu"
   github: R3J3CT3D
   rss: false
-  youtube: user/deanat78
-#  twitter: daattali
-#  facebook: deanattali
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
+  youtube: user/
 
 # --- General options --- #
 
@@ -157,7 +141,7 @@ footer-link-col: "#404040"
 title-separator: "-"
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: "%-d %B %Y"
 
 # Facebook App ID
 #fb_app_id: ""
