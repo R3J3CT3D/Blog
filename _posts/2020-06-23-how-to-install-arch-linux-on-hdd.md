@@ -2,7 +2,7 @@
 layout: post
 title: Comment installer facilement Linux sur un disque dur externe
 subtitle: Emportez votre Linux partout avec vous
-tags: [linux], [admin-sys]
+tags: [linux, admin-sys]
 comments: true
 ---
 
