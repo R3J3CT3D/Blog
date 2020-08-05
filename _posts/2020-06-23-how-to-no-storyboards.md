@@ -2,7 +2,7 @@
 layout: post
 title: Démarrer un projet Xcode sans storyboard
 subtitle: Libérez vous des contraintes des storyboards
-tags: [linux, admin-sys]
+tags: [ios, xcode]
 comments: true
 ---
 
@@ -15,7 +15,7 @@ Pour reprendre la définition officielle d'Apple:
 
 Nous pouvons retrouver dans Xcode un éditeur de storyboard qui permet de rajouter facilement des éléments dans nos écrans avec un simple glisser-déposer.
 
-![Storyboard](https://github.com/sonnyfournier/blog/blob/master/assets/img/how-to-no-storyboards/intro.png){: .mx-auto.d-block :}
+![Storyboard](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/how-to-no-storyboards/intro.png){: .mx-auto.d-block :}
 
 # Pourquoi supprimer les storyboards ?
 
@@ -33,14 +33,14 @@ Une fois que tous vos écrans sont créés il devient très difficile de modifie
 
 # Comment supprimer les storyboards
 
-![Storyboard](https://github.com/sonnyfournier/blog/blob/master/assets/img/how-to-no-storyboards/1.png){: .mx-auto.d-block :}
+![1](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/how-to-no-storyboards/1.png){: .mx-auto.d-block :}
 
-![Storyboard](https://github.com/sonnyfournier/blog/blob/master/assets/img/how-to-no-storyboards/2.png){: .mx-auto.d-block :}
+![2](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/how-to-no-storyboards/2.png){: .mx-auto.d-block :}
 
-![Storyboard](https://github.com/sonnyfournier/blog/blob/master/assets/img/how-to-no-storyboards/3.png){: .mx-auto.d-block :}
+![3](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/how-to-no-storyboards/3.png){: .mx-auto.d-block :}
 
-![Storyboard](https://github.com/sonnyfournier/blog/blob/master/assets/img/how-to-no-storyboards/4.png){: .mx-auto.d-block :}
+![4](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/how-to-no-storyboards/4.png){: .mx-auto.d-block :}
 
-![Storyboard](https://github.com/sonnyfournier/blog/blob/master/assets/img/how-to-no-storyboards/5.png){: .mx-auto.d-block :}
+![5](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/how-to-no-storyboards/5.png){: .mx-auto.d-block :}
 
-![Storyboard](https://github.com/sonnyfournier/blog/blob/master/assets/img/how-to-no-storyboards/6.png){: .mx-auto.d-block :}
+![6](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/how-to-no-storyboards/6.png){: .mx-auto.d-block :}
