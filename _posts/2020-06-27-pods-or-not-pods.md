@@ -51,7 +51,9 @@ En réalité, il n'existe pas qu'une seule réponse à cette question, et la ré
 
 En alternative, vous pouvez récupérer le code des librairies que vous utilisez régulièrement et les push sur un seul et unique repo. Ainsi, si un jour le repo d'une des librairie est passé en privé, ou même supprimé, vous aurez toujours accès à votre propre instance de cette librairie en attendant de trouver une alternative à celle-ci.
 
-De cette manière vous utiliserez l'espèce de stockage nécéssaire au Pods qu'une seule et unique fois, mais vous l'aurez toujours sous la main pour autant. Il est même possible que créer son propre Cocoapods (de manière très vulgarisé) avec des sous-modules de git.
+De cette manière vous utiliserez l'espèce de stockage nécéssaire au Pods qu'une seule et unique fois, mais vous l'aurez toujours sous la main pour autant. Il serait même possible que créer son propre "Cocoapods" avec des sous-modules de git.
+
+Si Cocoapods est entre guillements c'est parce que ce service ne se contente pas de juste cloner des repos. Il y a derrière une gestion des numéro de version, de mise à jour de librairies, d'intégration avec Xcode simplifiée. C'est pourquoi cette solution est marqué en tant qu'alternative et que je ne la conseille pas vraiment.
 
 
 # Conclusion
