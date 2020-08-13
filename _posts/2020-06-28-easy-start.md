@@ -10,7 +10,7 @@ Si vous avez suivi les précédents articles, vous avez pu apercevoir que je me 
 
 En effet, je n'utilise pas de storyboards, j'utilise Snapkit pour créer et gérer mes contraintes et pour construires mes interfaces utilisateurs grâce au code, j'utilise SwiftLint pour suivre des règles de développement et ainsi m'assurer d'avoir un code propre et lisible, j'ai créer des extensions utiles qui me suivent de projet en projet, bref, tant de choses que je dois faire et refaire à chaque nouveau projet.
 
-Aujourd'hui, je vais vous montrez comment j'ai créer un template d'applications sur Github afin de le réutiliser tout le temps dans le but de répéter sans cesse les mêmes actions.
+Aujourd'hui, je vais vous montrez comment j'ai créer un template d'applications sur Github afin de le réutiliser tout le temps dans le but d'éviter de répéter sans cesse les mêmes actions.
 
 # La création du projet
 
