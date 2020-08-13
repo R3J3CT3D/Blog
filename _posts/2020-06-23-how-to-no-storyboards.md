@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Démarrer un projet Xcode sans storyboard
-subtitle: Libérez vous des contraintes des storyboards
+subtitle: Libérez vous de la contrainte des storyboards
 tags: [ios, xcode]
 comments: true
 ---
