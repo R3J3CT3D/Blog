@@ -63,6 +63,7 @@ pod install
 ```
 
 
+
 ## Utilisation
 
 Nous pouvons à présent utiliser Snapkit pour créer des contraintes dans notre code, voici l'exemple donné dans la documentation
@@ -83,6 +84,7 @@ view1.snp.makeConstraints {
     $0.center.equalTo(self.view)
 }
 ```
+
 
 
 ## Pour allez plus loin
@@ -117,6 +119,7 @@ pod install
 ```
 
 
+
 ## Utilisation
 
 Pour reprendre l'exemple précédent, TinyConstraints nous permet de transformer:
@@ -133,6 +136,7 @@ En:
 ```swift
 view.center(in: superview)
 ```
+
 
 
 ## Pour allez plus loin

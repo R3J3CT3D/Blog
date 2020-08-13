@@ -44,6 +44,7 @@ print(cafe.capitalizeFirstLetter())
 ```
 
 
+
 # UIView
 
 Passons sans plus tarder à une autre extension qui peut s'avérer très utile (surtout si vous avez suivi les précédents articles et que vous développez vos interfaces utilisateurs grâce au code), j'ai nommé `addSubviews` !
@@ -86,6 +87,7 @@ let view3 = UIView()
 // Nous pouvons ajouter toutes nos views d'un seul coup
 containerView.addSubviews(view1, view2, view3)
 ```
+
 
 
 # Cells
@@ -142,6 +144,7 @@ loginButton.loadingIndicator(true)
 // Et l'appeler de cette manière quand on veut arrêter l'animation
 loginButton.loadingIndicator(false)
 ```
+
 
 
 # Conclusion
