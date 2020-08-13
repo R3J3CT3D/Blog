@@ -34,6 +34,7 @@ Il existe une multitude de librairies permettant de simplifier l'écriture des c
 
 # Snapkit
 
+
 ## Présentation
 
 Commençons par Snapkit, développée par [Robert Payne](https://github.com/robertjpayne), c'est la librairie que j'utilise personnellement lors du développement de mes projets Swift.
@@ -41,6 +42,7 @@ Commençons par Snapkit, développée par [Robert Payne](https://github.com/robe
 Si j'utilise cette librairie en particulier c'est tout simplement parce que c'est celle-ci que j'ai connu en premier, et étant le plus connue, elle bénéficie de plus de stabilité et de plus de contributeurs.
 
 Nous allons voir dans un premier temps comment installer Snapkit, et nous verrons ensuite comment l'utiliser.
+
 
 ## Installation
 
@@ -59,6 +61,7 @@ Une fois la ligne ajouter, il suffit de lancer la commande suivante pour procéd
 ```shell
 pod install
 ```
+
 
 ## Utilisation
 
@@ -81,6 +84,7 @@ view1.snp.makeConstraints {
 }
 ```
 
+
 ## Pour allez plus loin
 
 > En lisant la documentation de Snapkit, vous vous rendrez compte que ce code peut encore être simplifié, notemment en changeant `width.height` en `size`. Je vous encourage grandement à lire la documentation.
@@ -89,11 +93,14 @@ Vous trouverez aussi, en complément de la fonction `makeConstraints`, les fonct
 
 Cette article faisant office d'inititation, je vous laisse vous rendre dans la [documentation](http://snapkit.io/docs/) afin d'en apprendre plus sur ces fonctions et sur la librairie en général.
 
+
 # TinyConstraints
+
 
 ## Présentation
 
 Nous allons à présent survoler la librairie TinyConstraints, crée par [Robert-Hein Hooijmans](https://github.com/roberthein). Je parlerai moins de celle-ci car je l'ai personnelement beaucoup moins utilisée.
+
 
 ## Installation
 
@@ -108,6 +115,7 @@ Et de lancer la commande suivante:
 ```shell
 pod install
 ```
+
 
 ## Utilisation
 
@@ -126,11 +134,13 @@ En:
 view.center(in: superview)
 ```
 
+
 ## Pour allez plus loin
 
 Je ne détaillerai pas plus pour TinyConstraints car comme mentionné plus haut, je l'ai très peu utilisée, je vous redirige donc vers la [documentation](https://github.com/roberthein/TinyConstraints).
 
 Comme vous pouvez le voir, les contraintes sont encore plus simples à écrire qu'avec Snapkit, c'est pourquoi je compte utiliser cette librairie en remplacement de Snapkit.
+
 
 # Conclusion
 
