@@ -40,11 +40,18 @@ En réalité, il n'existe pas qu'une seule réponse à cette question, et la ré
 
 # Avantages de ne pas push de dossier Pods
 
-1. Mine de rien, les librairies pèsent un certain poid. Ne pas les push rendra votre repo moins lourd.
+1. Mine de rien, le code qui constitue les librairies pèse un certain poid. Ne pas les push rendra votre repo moins lourd. De plus, si dans chaque projet que vous réalisez, vous ajoutez les mêmes librairies, vous consommerez plusieurs fois le même stockage pour la même chose.
 
 2. Si certains de vos collaborateurs ont des versions différentes des librairies, cela ne créera pas de conflits lors des merges de branches.
 
-3. Tant que le repo de la librairie est en ligne et public, il vous suffira d'une simple commande pour récupérer cette librairie.
+3. Tant que le repo de la librairie est en ligne et public, il vous suffira d'un simple `pod install` pour récupérer cette librairie.
+
+
+# Alternative
+
+En alternative, vous pouvez récupérer le code des librairies que vous utilisez régulièrement et les push sur un seul et unique repo. Ainsi, si un jour le repo d'une des librairie est passé en privé, ou même supprimé, vous aurez toujours accès à votre propre instance de cette librairie en attendant de trouver une alternative à celle-ci.
+
+De cette manière vous utiliserez l'espèce de stockage nécéssaire au Pods qu'une seule et unique fois, mais vous l'aurez toujours sous la main pour autant. Il est même possible que créer son propre Cocoapods (de manière très vulgarisé) avec des sous-modules de git.
 
 
 # Conclusion
