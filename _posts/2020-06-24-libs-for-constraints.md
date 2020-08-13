@@ -62,7 +62,7 @@ Une fois la ligne ajouter, il suffit de lancer la commande suivante pour procéd
 pod install
 ```
 
-
+Et la librairie sera installé et disponible à la fin de la commande.
 
 ## Utilisation
 
@@ -85,7 +85,7 @@ view1.snp.makeConstraints {
 }
 ```
 
-
+Cela rends la chose plus simple à lire tout en étant toujours autant explicite.
 
 ## Pour allez plus loin
 
@@ -118,6 +118,7 @@ Et de lancer la commande suivante:
 pod install
 ```
 
+Et la librairie sera installé et disponible à la fin de la commande.
 
 
 ## Utilisation
@@ -137,6 +138,7 @@ En:
 view.center(in: superview)
 ```
 
+> 4 lignes tranformées en une seule !
 
 
 ## Pour allez plus loin

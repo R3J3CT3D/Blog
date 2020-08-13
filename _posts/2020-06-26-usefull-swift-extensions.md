@@ -13,7 +13,7 @@ Je vais aujourd'hui vous présenter diverses extensions que j'ai pu mettre au po
 
 # String
 
-Nous allons commencer par voir une petite extension très pratiques concernant la classe `String`
+Nous allons commencer par voir deux petites extensions très pratiques concernant la classe `String`
 
 Il existe en Swift des méthodes qui permettent de rendre en minuscules ou en majuscules tous les caractères présents dans une chaîne de caractère.
 
@@ -43,6 +43,35 @@ print(cafe.capitalizeFirstLetter())
 // Affiche "Café"
 ```
 
+---
+
+Une autre fonctionnalité que nous pouvons ajouter sans problème à la classe String est la suivante: une méthode permettant de savoir si une adresse email est valide ou non.
+
+En effet, il arrive bien souvent que nous aillons à vérifier si une adresse email est correcte et valide avant de l'envoyer dans un formulaire d'inscription, c'est pourquoi je vous propose la méthode suivante:
+
+```swift
+extension String {
+    func isValidEmailFormat() -> Bool {
+        let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegex)
+        return emailTest.evaluate(with: self)
+    }
+}
+```
+
+En plus de vous évitez la corvée des REGEXS à chaque fois, il vous suffira d'une seule ligne pour vérifier si une adresse email est valide:
+
+```swift
+let email1 = "thisis@anemail.com"
+print(email1.isValidEmailFormat)
+// Affiche `true`
+
+let email2 = "a@b.c"
+print(email2.isValidEmailFormat)
+// Affiche `false`
+```
+
+Et c'est dans la poche !
 
 
 # UIView
@@ -88,7 +117,7 @@ let view3 = UIView()
 containerView.addSubviews(view1, view2, view3)
 ```
 
-
+C'est tout de même plus simple non ?
 
 # Cells
 
@@ -145,7 +174,7 @@ loginButton.loadingIndicator(true)
 loginButton.loadingIndicator(false)
 ```
 
-
+De cette manière, vous n'aurez qu'une ligne à écrire pour informer à vos utilisateurs qu'ils doivent attendre.
 
 # Conclusion
 
