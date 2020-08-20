@@ -14,17 +14,19 @@ comments: true
 
 # Introduction
 
-Il y a quelque mois, avant même l'annonce d'iOS 14, je suis tombé sur un article disant que la dernière version d'iOS (iOS 13.3) était jailbreakable. Intrigué, j'ai lu l'article et je me suis aperçu de la simplicité déconcertante de la manoeuvre. Ayant déjà pratiqué le jailbreak des années auparavant, j'ai décidé de retenté l'expérience pour m'amuser.
+Il y a quelque mois, avant même l'annonce d'iOS 14, je suis tombé sur un article disant que la dernière version d'iOS (iOS 13.3) était jailbreakable. Intrigué, j'ai lu l'article et je me suis aperçu de la simplicité déconcertante de la manoeuvre. Ayant déjà pratiqué le jailbreak des années auparavant, j'ai décidé de retenté l'expérience afin de comparer mes expériences passées avec la nouvelle expérience que propose le jailbreak.
 
-Je vais passer les détails concernant la procédure, mais tout s'est passé très simplement et facilement. Mon iPhone jailbreaké dans les mains, j'ai décidé de me renseigné sur les tweaks les plus connus afin de les installer.
+Je vais passer les détails concernant la procédure car ce n'est pas le but de cet article, mais tout s'est déroulé de manière très simple et très facile.
 
-Après plusieurs mois d'utilisation, iOS 14 est annoncé, et avec lui, la beta privée. Je décide donc de désinstaller mon jailbreak afin d'installer la bêta d'iOS 14, et c'est la surprise, beaucoup de fonctionnalités se ressemblent, c'est pourquoi je vous propose aujourd'hui les différentes similitudes que j'ai pu constater.
+Mon iPhone fraichement jailbreaké dans les mains, j'ai décidé de me renseigné sur les tweaks les plus populaires et les plus connus afin de les installer.
+
+Après plusieurs mois d'utilisation, iOS 14 est annoncé, et avec lui, la beta privée. J'ai donc décidé de désinstaller mon jailbreak afin d'installer la bêta d'iOS 14, et c'est la surprise, beaucoup de fonctionnalités se ressemblent, c'est pourquoi je vous propose aujourd'hui les différentes similitudes que j'ai pu constater au cours de mon utilisation.
 
 
 # Le picture-in-picture
 
 
-Une des nouveautés phare d'iOS 14, le picture-in-picture, abrévié en PIP, consiste littéralement à afficher une image dans une autre image. Dans le cas d'iOS, celà veut dire que l'on peut par exemple regarder une vidéo de n'importe quelle application (ou presque) tout en envoyant un message sur Facebook ou en ajoutant un évenement sur son calendrier. Révolu le temps ou vous deviez mettre en pause l'épisode de votre série Netflix préférée pour répondre à un message !
+Une des nouveautés phare d'iOS 14, le picture-in-picture, abrévié en PIP, consiste littéralement à afficher une image dans une autre image. Dans le cas d'iOS, celà veut dire que l'on peut par exemple regarder une vidéo de n'importe quelle application (ou presque) tout en envoyant un message sur Facebook ou en ajoutant un évenement sur son calendrier. Révolu le temps ou vous deviez mettre en pause l'épisode de votre série Netflix préférée pour répondre à un message urgent !
 
 Or, cette fonctionnalité n'est pas une nouveauté à proprement parler puisqu'on pouvait déjà utiliser le picture-in-picture grâce au jailbreak et notamment grâce au tweak `ForceInPicture`:
 
@@ -34,7 +36,7 @@ Or, cette fonctionnalité n'est pas une nouveauté à proprement parler puisqu'o
 # Les widgets
 
 
-iOS 14 signe aussi l'arrivé des widgets sur l'écran d'accueil. Longtemps moqué par les utilisateurs Android qui possèdent les widgets depuis des années, il était temps que ceux-ci débarque enfin sur iOS. Sauf que celà fait maintenant plusieurs années qu'ils sont aussi disponible sur iOS, et tout ça grâce à des tweaks tel que `Velox Reloaded`:
+iOS 14 signe aussi l'arrivé des widgets sur l'écran d'accueil. Longtemps moqué par les utilisateurs Android qui possèdent les widgets depuis des années, il était temps que ceux-ci débarque enfin sur iOS. Sauf que celà fait maintenant plusieurs années qu'ils sont aussi disponible de manière officieuse sur iOS, et tout ça grâce à des tweaks tel que `Velox Reloaded`:
 
 ![2](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/ios-and-jailbreak/2.jpg){: .mx-auto.d-block :}
 
@@ -42,7 +44,7 @@ iOS 14 signe aussi l'arrivé des widgets sur l'écran d'accueil. Longtemps moqu�
 # Les appels discrets
 
 
-Une fonctionnalité longtemps demandée par les utilisateurs d'iOS: ne pas afficher un appel entrant sur l'entièreté de l'écran et laisser l'utilisateur utiliser son appareil tout en ignorant l'appel. Et bien ça aussi c'était déjà possible grâce à l'excellent tweak `Scorpion`:
+Une autre fonctionnalité longtemps réclamée par les utilisateurs d'iOS: ne pas afficher un appel entrant sur l'entièreté de l'écran et laisser l'utilisateur utiliser son appareil tout en ignorant l'appel. Et bien ça aussi c'était déjà possible grâce à l'excellent tweak `Scorpion`:
 
 
 ![3](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/ios-and-jailbreak/3.png){: .mx-auto.d-block :}
@@ -85,4 +87,8 @@ Et voici pour les nouveautés les plus inspirées du jailbreak, il en existe bie
 - Les alertes de batterie pour AirPods grâce à `AirPods Case Low Battery`
 
 
-Notez aussi que je n'ai donné à chaque fois qu'un tweak par nouveauté, mais il existe bien sur de nombreuse alternatves, par exemple le tweak pour les appels discrets `Scorpion` peut-être remplacé par le tweak `Callbar XS`. Ce n'est alors qu'une question de préférence et/ou de prix.
+Notez aussi que je n'ai donné à chaque fois qu'un tweak par nouveauté, mais il existe bien sûr de nombreuse alternatves, par exemple le tweak pour les appels discrets `Scorpion` peut-être remplacé par le tweak `Callbar XS`.
+
+Vous pouvez trouver les alternatives à chaque tweak avec une simple recherche Google ("alternative `Scorpion` tweak").
+
+Vous pourrez alors voir les alternatives et choisir le tweak qui vous plait le plus en fonction de vos goûts et de votre budget car certains tweak présentés ici sont payants.
