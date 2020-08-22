@@ -16,9 +16,9 @@ Aujourd'hui nous allons voir d'autres extensions toutes aussi pratiques et utile
 
 Commençons une nouvelle fois par explorer quelques extensions de la classe `String`.
 
-Avant tout, si vous ne le saviez pas, une grande source potentielle de failles et de bugs dans les divers programmes et applications de nos jours sont dûes aux utilisateurs. En effet, plus l'utilisateur à l'occasion de rentrer lui-même des informations dans votre programme, plus il y a de chance que votre programme ne sache pas comment les interpréter.
+Avant tout, si vous ne le saviez pas, une grande source potentielle de failles et de bugs dans les divers programmes et applications de nos jours sont dûes aux utilisateurs. En effet, plus l'utilisateur a d'occasions de rentrer lui-même des informations dans votre programme, plus il y a de chance que votre programme ne sache pas comment les interpréter.
 
-Par exemple, si un utilisateur rentre son adresse mail mais par mégarde ajoute un espace à la fin. Suivant votre manière de gérer les choses, il se peut que l'utilisateur ne reçoive jamais les mails que vous lui envoyez car pour un programme `"mail@mail.com"` est différent de `"mail@mail.com  "`.
+Par exemple, si un utilisateur rentre son adresse mail, mais par mégarde ajoute un espace à la fin. Suivant votre manière de gérer les choses, il se peut que l'utilisateur ne reçoive jamais les mails que vous lui envoyez car pour un programme `"mail@mail.com"` est différent de `"mail@mail.com  "`.
 
 De même, si vous demandez à l'utilisateur de rentrer son nom entier, celui-ci pourrait par mégarde ajouter des espaces utiles de la sorte: `Jean      Dupont`.
 
@@ -108,7 +108,7 @@ Vous pourrez bien entendu toujours compter le nombre de caractères grâce à `.
 # UIView
 
 
-Nous allons à présent voir une extensions très pratique concernant la classe `UIView`. Celle-ci permet d'ajouter facile des contours autours de vos vues. En plus, comme tous les éléments d'UIKit ou presque héritent d'`UIView`, vous pourrez aussi appliquer des contours aux `UIButton`, `UILabel`, `UITextField`, etc..
+Nous allons à présent voir une extension très pratique concernant la classe `UIView`. Celle-ci permet d'ajouter facile des contours autour de vos vues. De plus, comme tous les éléments d'UIKit ou presque héritent d'`UIView`, vous pourrez aussi appliquer des contours aux `UIButton`, `UILabel`, `UITextField`, etc..
 
 ```swift
 extension UIView {
@@ -147,7 +147,7 @@ extension UIView {
 
 Cette extension étant un peu plus complexe que les autres je vais la détaillée ici.
 
-Tout d'abord vous pouvez voir que j'ai créer ici une enumération nommée `BorderSide`, celle-ci nous permettra de préciser sur quel(s) côté(s) de notre vue nous voulons appliquer un contour.
+Tout d'abord vous pouvez voir que j'ai crée ici une énumération nommée `BorderSide`, celle-ci nous permettra de préciser sur quel(s) côté(s) de notre vue nous voulons appliquer un contour.
 
 La fonction `setBorder` prend 3 paramètres:
 - `sides`: le(s) côté(s) sur lesquels nous voulons une bordure
@@ -174,4 +174,4 @@ Nous pouvons à présent facilement ajouter des bordures à toutes nos vues !
 # Conclusion
 
 
-Voilà, nous avons fait le tour des extensions que j'avais à vous proposer pour aujourd'hui, comme la dernière fois, n'hésitez pas à me proposer les vôtres pour quelles aparaissent peut-être dans un futur article !
+Voilà, nous avons fait le tour des extensions que j'avais à vous proposer pour aujourd'hui, comme la dernière fois, n'hésitez pas à me proposer les vôtres pour quelles apparaissent peut-être dans un futur article !
