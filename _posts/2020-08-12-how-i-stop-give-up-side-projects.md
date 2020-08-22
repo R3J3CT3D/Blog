@@ -6,13 +6,13 @@ tags: [dev]
 comments: true
 ---
 
-Si vous êtes développeur je pense qu'il à du vous arriver plein de fois d'avoir des idées de projets persos, que ces idées restent au stade d'idées ou non.
+Si vous êtes développeur je pense qu'il a du vous arriver plein de fois d'avoir des idées de projets persos, que ces idées restent au stade d'idées ou non.
 
-Le problème avec les projets persos (ceux que l'on commence du moins) c'est qu'on a souvent tendance à les mettres de côtés jusqu'à les abandonner totalement.
+Le problème avec les projets persos (ceux que l'on commence du moins) c'est qu'on a souvent tendance à les mettre de côtés jusqu'à les abandonner totalement.
 
 Mais pourquoi ? Pourquoi un projet dans lequel nous nous sommes investi corps et âme pendant plusieurs jours, voir plusieurs semaines, en vient à ne plus nous motiver au point de l'abandonner ?
 
-Aujourd'hui nous tenter de répondre à cette question, et, par la suite je vous donnerai ma méthode pour que ça n'arrive plus.
+Aujourd'hui nous allons tenter de répondre à cette question, et, par la suite je vous donnerai ma méthode pour que ça n'arrive plus.
 
 
 # Le pourquoi 
@@ -24,7 +24,7 @@ Vous êtes maintenant prêt à entendre la raison numéro 1 de l'abandon de proj
 
 **La perte de motivation**
 
-Alors, je sais ce que vous vous dites.. C'est plus une évidence qu'une réponse universelle, et vous avez raison. Seulement, il est nécéssaire de poser les bases avant de les étudier.
+Alors, je sais ce que vous vous dites.. C'est plus une évidence qu'une réponse universelle, et vous avez raison. Seulement, il est nécessaire de poser les bases avant de les étudier.
 
 Maintenant que nous avons la cause de l'abandon de nos projets persos, une nouvelle question s'offre à nous: **Qu'est ce qui cause cette perte de motivation ?**
 
@@ -32,21 +32,21 @@ Maintenant que nous avons la cause de l'abandon de nos projets persos, une nouve
 # La cause
 
 
-En jettant un oeil à mes projets persos il semble que la perte de motivation survienne en général au bout de deux semaines à travailler sur le même projet.
+En jetant un oeil à mes projets persos il semble que la perte de motivation survienne en général au bout de deux semaines à travailler sur le même projet.
 
 J'ai donc alors théorisé sur cette information. Pourquoi deux semaines ? Et j'en suis arrivé à la conclusion suivante:
 
 Je perds motivation au bout de deux semaines car je ne vois pas le produit avancer, et comme il s'agit d'un projet personnel, je n'y vois aucune obligation et il n'y a aucune deadline concrète.
 
-> Attention, ceci est ma "fenêtre" de motivation, la votre peut être de 3 semaines, 1 mois, 7 jours, vous devrez alors adapter la suite à votre propre fenêtre.
+> Attention, ceci est ma "fenêtre" de motivation, la vôtre peut être de 3 semaines, 1 mois, 7 jours, vous devrez alors adapter la suite à votre propre fenêtre.
 
-Mais alors, comment peut-on lutter contre ça ? Et bien c'est très simple, si nous ne pouvons pas conserver notre motivation pendant plus de deux semaines, alors **nos projets devront pouvoir être développer en deux semaines.**
+Mais alors, comment peut-on lutter contre ça ? Et bien c'est très simple, si nous ne pouvons pas conserver notre motivation pendant plus de deux semaines, alors **nos projets devront pouvoir être développés en deux semaines.**
 
-Alors oui, j'ai conscience que tous les projets ne peuvent pas rentrer dans seulement deux petites semaines, une simple application de prise de notes le pourrait, mais cela serait plus compliqué pour un réseau social. Mais dîtes vous bien que si vous n'arrivez pas à faire tenir ça dans ce temps imparti, vous finirez par abandonner ce projet comme les précédents et vous aurez simplement perdu deux semaines.
+Alors oui, j'ai conscience que tous les projets ne peuvent pas rentrer dans seulement deux petites semaines, une simple application de prise de notes le pourrait, mais cela serait plus compliqué pour un réseau social. Mais dites vous bien que si vous n'arrivez pas à faire tenir ça dans ce temps imparti, vous finirez par abandonner ce projet comme les précédents et vous aurez simplement perdu deux semaines.
 
 Mais alors, une nouvelle question se pose encore à nous: **comment faire rentrer de "gros" projets en deux semaines ?**
 
-Et bien je vais vous donner une réponse très conscise qui se résume en un mot, un mot que vous avez déjà du entendre par le passé: **MVP**.
+Et bien je vais vous donner une réponse très concise qui se résume en un mot, un mot que vous avez déjà du entendre par le passé: **MVP**.
 
 
 # Le MVP
@@ -56,20 +56,20 @@ Le MVP, signifiant **Minimum Viable Product**, soit en français **Produit Minim
 
 Et c'est là que réside notre solution, le MVP.
 
-Lorsque nous commençons un nouveau projet avec une idée spécifique en tête, nous avons très (trop) souvent tendance à nous égarer dans des détails ou des fonctionnalités qui n'apporte rien au coeur de l'application, je m'explique:
+Lorsque nous commençons un nouveau projet avec une idée spécifique en tête, nous avons très (trop) souvent tendance à nous égarer dans des détails ou des fonctionnalités qui n'apportent rien au coeur de l'application, je m'explique:
 
-Imaginez que je veuille créer une simple application de prise de note, et bien durant la conception, il est fort probable que plein de chose me passent par la tête, par exemple:
+Imaginez que je veuille créer une simple application de prise de note, et bien durant la conception, il est fort probable que plein de choses me passent par la tête, par exemple:
 - Un système d'inscription/connexion pour sauvegarder ses notes dans le cloud
 - Des jolies animations
 - Permettre d'ajouter de la couleur et des dessins dans ses notes
 - Proposer de partager ses notes avec d'autres personnes
 - Etc..
 
-Et c'est là  qu'est l'erreur ! Ce sont en soit de bonnes idées, mais elles ne font qu'allourdir le projet et s'éloigne du coeur principal de l'application: **prendre des notes.**
+Et c'est là  qu'est l'erreur ! Ce sont en soit de bonnes idées, mais elles ne font qu'alourdir le projet et s'éloigne du coeur principal de l'application: **prendre des notes.**
 
 Il faut commencer par les bases, par le coeur principal, toujours !
 
-Ainsi, lorsque vous aurez créer votre application de prise de notes de manière **simple** et sans **aucune fioritures**, vous ressentirez un sentiment d'accomplissement, vous aurez les bases de créer, et vous pourrez même commencer à l'utiliser et à la présenter aux gens autour de vous.
+Ainsi, lorsque vous aurez crée votre application de prise de notes de manière **simple** et sans **aucunes fioritures**, vous ressentirez un sentiment d'accomplissement, vous aurez les bases de créer, et vous pourrez même commencer à l'utiliser et à la présenter aux gens autour de vous.
 
 Et c'est une fois ce point atteint que vous pourrez vous lancer sur le développement de nouvelles fonctionnalités. Mais toujours **une** seule à la fois, ainsi, à chaque fonctionnalité finie vous pourrez l'utiliser vous même et l'a montrer aux autres. Vous verrez votre application avancée et s'enrichir petit à petit tandis que vous conservez la motivation de l'améliorer et la maintenir.
 
