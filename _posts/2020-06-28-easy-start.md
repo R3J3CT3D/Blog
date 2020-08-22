@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Éviter la répétion lors d'un nouveau projet
+title: Éviter la répétition lors d'un nouveau projet
 subtitle: Ne refaites pas les mêmes choses encore et encore
 tags: [ios, xcode]
 comments: true
