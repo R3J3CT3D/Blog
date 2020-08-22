@@ -26,13 +26,13 @@ Par exemple, si vous possédez un iPhone et que vous écrivez quelque part `jrv`
 Pour créer un snippet, rien de plus simple. Depuis Xcode, séléctionnez une portion de code que vous voulez transformer en snippet, faites un clic droit dessus et cliquer sur `Create Code Snippet`
 
 
-IMG 1
+![1](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/usefull-code-snippets/1.png){: .mx-auto.d-block :}
 
 
 Une nouvelle fenêtre va alors apparaître, dans celle-ci vous verrez le code que vous avez sélectionner, vous pourrez alors donner un nom à votre snippet, ainsi qu'une `completion`, c'est à dire, le mot que vous devrez écrire pour invoquer votre bout de code.
 
 
-IMG 2
+![2](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/usefull-code-snippets/2.png){: .mx-auto.d-block :}
 
 
 Je vais créer un snippet basique afin de mieux vous expliquer le fonctionnement. Imaginons qu'il m'arrive souvent de déclarer des variables de type `Int` contenant la valeur `42` (bien entendu, ceci n'est qu'un bête exemple), je vais commencer par écrire ceci dans n'importe quel fichier XCode, le sélectionner et appuyer sur `Create Code Snippet`:
@@ -42,19 +42,20 @@ Je vais créer un snippet basique afin de mieux vous expliquer le fonctionnement
 var myInt: Int = 42
 ```
 
-IMG 3
-
 
 Je vais maintenant donner un nom à ce snippet ainsi qu'une completion:
 
 
-IMG 4
+![3](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/usefull-code-snippets/3.png){: .mx-auto.d-block :}
 
 
 Ainsi, dès que je taperai `createInt` quelque part dans mon code, XCode me proposera le snippet que je viens d'écrire, il suffira d'appuyer sur la toucher `Entrer` pour l'ajouter dans mon code:
 
 
-IMG 5
+![4](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/usefull-code-snippets/4.png){: .mx-auto.d-block :}
+
+
+![5](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/usefull-code-snippets/5.png){: .mx-auto.d-block :}
 
 
 Comme vous pouvez le voir, le nom de la variable (ici `name`) est sélectionnée. C'est grâce à une fonctionnalité des snippets d'Xcode, vous pouvez indiqué pendant son écriture, quels seront les éléments variables dans votre bout de code afin que ceux-ci soient séléctionnés par défaut.
