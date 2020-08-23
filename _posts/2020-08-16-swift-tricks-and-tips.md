@@ -6,9 +6,9 @@ tags: [ios, xcode]
 comments: true
 ---
 
-Si vous faites parti de mes lecteurs régulier, vous devez très certainement bercer dans le milieu du développement iOS, et plus particulière en Swift.
+Si vous faites partie de mes lecteurs réguliers, vous devez très certainement bercer dans le milieu du développement iOS, et plus particulière en Swift.
 
-Bien que les bases du Swift soient facile à apprendre et à maitriser, le fait d'ulitiser le language au quotidien permets d'apprendre et de découvrir des fonctionnalités moins connues. Aujourd'hui, je vais vous montrez quelques astuces que j'ai découvert avec le temps. J'espère que celles-ci vous seront utiles et qu'elles permettront d'améliorer la qualité de votre code et sa lisibilité.
+Bien que les bases du Swift soient faciles à apprendre et à maitriser, le fait d'utiliser le langage au quotidien permet d'apprendre et de découvrir des fonctionnalités moins connues. Aujourd'hui, je vais vous montrer quelques astuces que j'ai découvert avec le temps. J'espère que celles-ci vous seront utiles et qu'elles permettront d'améliorer la qualité de votre code et sa lisibilité.
 
 Commençons sans plus tarder !
 
@@ -18,7 +18,7 @@ Commençons sans plus tarder !
 
 Comme vous le savez certainement, je me passe des storyboards dans mon développement et j'écris toutes mes interfaces utilisateurs directement avec du code grâce à la librairie `Snapkit` pour gérer mes contraintes (voir [Démarrer un projet Xcode sans storyboard](https://sonnyfournier.github.io/blog/2020-06-23-how-to-no-storyboards/) et [Des librairies pour des meilleures contraintes](https://sonnyfournier.github.io/blog/2020-06-24-libs-for-constraints/)).
 
-Et il arrive très souvent que nous aillons recours à des nombres constants lors de l'écritures de contraintes, par exemple, pour créer des marges:
+Et il arrive très souvent que nous ayons recours à des nombres constants lors de l'écriture de contraintes, par exemple, pour créer des marges:
 
 
 ```swift
@@ -33,7 +33,7 @@ private func setupConstraints() {
 
 Le problème avec ceci, c'est que ce n'est pas facilement maintenable. En effet, si un jour je veux réduire ces marges, je devrais chercher partout où j'ai spécifiée de marges de `20`et les modifier une à une.
 
-C'est pourquoi je vous propose la solution suivante: nous allons créer une extension de notre view controller, dans lequel nous allons créer une énumération nommée `Layout`, et c'est dans celle-ci que nous écrirons nos constantes, ainsi, elles seront toutes situées au même endroit et seront beaucoup plus facile à modifier.
+C'est pourquoi je vous propose la solution suivante: nous allons créer une extension de notre view controller, dans lequel nous allons créer une énumération nommée `Layout`, et c'est dans celle-ci que nous écrirons nos constantes, ainsi, elles seront toutes situées au même endroit et seront beaucoup plus faciles à modifier.
 
 
 ```swift
@@ -61,7 +61,7 @@ private func setupConstraints() {
 
 Et voilà, notre code est devenu beaucoup plus facile à maintenir, et beaucoup plus facile à lire !
 
-Bien entendu, je vous ai montré cette astuce avec des constantes en rapport avec de l'UI, mais elle est aussi applicable dans le cas d'autres constantes, comme par exemple, un nombre de secondes à attendre pour un timer.
+Bien entendu, je vous ai montré cette astuce avec des constantes en rapport avec de l'UI, mais elle est aussi applicable dans le cas d'autres constantes, comme par exemple, un nombre de secondes à attendre afin de définir un timer statique.
 
 
 # Améliorer la lisibilité des constantes globales
@@ -104,13 +104,13 @@ De cette manière, toutes vos constantes seront proprement isolées les unes des
 let url = Constants.TwitterApi.baseUrl
 ```
 
-En lisant ce code on sait imméditement à quoi on accède et on évite les noms de variables à rallonge.
+En lisant ce code on sait immédiatement à quoi on accède et on évite les noms de variables à rallonge.
 
 # Defer
 
 Bien qu'introduit avec Swift 2.0, l'instruction `defer` semble méconnue par beaucoup de développeurs iOS.
 
-Cette instruction permet un moyen sûr et simple d'executer du code juste avant de quitter le scope d'une fonction.
+Cette instruction permet un moyen sûr et simple d'exécuter du code juste avant de quitter le scope d'une fonction.
 
 ```swift
 func myFunc() {
@@ -163,7 +163,7 @@ struct Vehicule {
 }
 ```
 
-L'initialisateur `init(wheelsCount:seatsCount:)` ne sera plus disponible et nous devrons utiliser celui que nous venons de définir. Or parfois, il est utile de conserver celui par défaut. Heureusement pour nous, il existe une solution très simple pour celà: il suffit de créer une extension de notre structure dans laquelle nous allons définir notre initialisateur custom:
+L'initialisateur `init(wheelsCount:seatsCount:)` ne sera plus disponible et nous devrons utiliser celui que nous venons de définir. Or parfois, il est utile de conserver celui par défaut. Heureusement pour nous, il existe une solution très simple pour cela: il suffit de créer une extension de notre structure dans laquelle nous allons définir notre initialisateur custom:
 
 
 ```swift
@@ -181,12 +181,12 @@ extension Vehicule {
 ```
 
 
-Grâce à cette manipulation, nous pourrons désormais utilser les deux initialisateurs, celui par défaut, et le notre !
+Grâce à cette manipulation, nous pourrons désormais utiliser les deux initialisateurs, celui par défaut, et le nôtre !
 
 
 # Conclusion
 
 
-Nous avons fait les tour aujourd'hui des astuces que j'avais à vous proposer, j'espère sincèrement que celles-ci vous auront étés utiles si vous ne les connaisiez pas.
+Nous avons fait le tour aujourd'hui des astuces que j'avais à vous proposer, j'espère sincèrement que celles-ci vous auront étés utiles si vous ne les connaissiez pas.
 
 Comme à mon habitude je vous invite à me partager vos astuces si vous en avez, je me ferais une joie de les partager dans un futur article !
