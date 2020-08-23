@@ -4,19 +4,19 @@
 title: My Medium
 
 # Short description of your site
-description: 
+description: Un blog tout simple où je partage mon savoir
 
 # Your name to show in the footer
-author: R3J3CT3D
+author: Sonny Fournier
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
+  À Propos: "aboutme"
+  Ressources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Github: "https://github.com/sonnyfournier"
 
 # --- Logo --- #
 
@@ -39,7 +39,7 @@ round-avatar: true
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "sonny.fournier@epitech.eu"
-  github: R3J3CT3D
+  github: sonnyfournier
   rss: false
   youtube: user/
 
