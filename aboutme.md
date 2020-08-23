@@ -1,16 +1,13 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: À Propos
+subtitle: Qui suis-je
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Je m'appelle Sonny Fournier et j'ai créer ce blog dans un principe de non-redoublement.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Je devais à la base écrire des articles pour valider mon cursus scolaire, mais je crois bien m'être pris au jeu et il est fort probable que je continue à écrire des articles même lorsque je n'y serai plus obligé !
 
-What else do you need?
+### Mon histoire
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+J'ai perdu mon travail à cause du COVID-19, engagez moi !
