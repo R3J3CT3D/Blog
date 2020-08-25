@@ -61,3 +61,55 @@ Ce n'est pas un secret, la documentation est la meilleure amie du développeur. 
 Pour afficher la documententation d'un élément, il vous suffit de maintenir la touche `Option` (ou `Alt`) et de cliquer sur cet élément.
 
 
+![4](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/xcode-tips/4.png){: .mx-auto.d-block :}
+
+
+Dans cet exemple j'ai affiché la documentation de la méthode `point`. En affichant cette documentation je peux lire la description de cette méthode, sa déclaration, et une description des ses paramêtres.
+Sachez que vous pouvez aussi afficher la documentation des éléments de votre propre projet.
+
+
+# Editer dans tout le fichier
+
+
+Beaucoup d'éditeurs de texte et d'IDE proposent une focntionnalité très pratique, les multis curseurs. Xcode ne dispose malheureusement pas de cette fonctionnalité, mais il existe un équivalent appelé `Edit All in Scope`. Cette fonctionnalité vous permet de modifier toutes les occurences des éléments sélectionnés et de les modifier tous à la fois. Pour utiliser cette fonction, il vous suffit de sélectionner ce que vous souhaitez et d'utiliser le raccourci clavier `Control` + `CMD` + `E`.
+
+
+![5](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/xcode-tips/5.png){: .mx-auto.d-block :}
+
+
+Toutes les occurences correspondantes à votre sélection seront alors sélectionnées et vous pourrez modifier toutes ces occurences d'un coup. Cela peut se montrer très utile lorsque vous voulez renommer une variable par exemple.
+
+
+# Les breakpoints améliorés
+
+
+Les `breakpoints` sont des éléments indispensables pour débugguer vos projets. Pour les non-initiés, un `breakpoint` est un outil de débug qui permet de mettre en pause l'éxécution de votre programme/application à un moment souhaité. Pour créer un breakpoint, il vous suffit simplement de cliquer sur le numéro de ligne à l'endroit où vous souhaitez le placer (ici ligne `44`).
+
+
+![6](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/xcode-tips/6.png){: .mx-auto.d-block :}
+
+
+Et bien sachez qu'il est possible d'améliorer ces breakpoints afin de leurs faire effectuer des actions en plus de mettre l'éxécution en pause. Pour se faire, faites un clic droit sur le breakpoint et cliquer sur `Edit Breakpoint...`
+
+
+![7](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/xcode-tips/7.png){: .mx-auto.d-block :}
+
+
+Vous pourrez alors ajouter des fonctionnalités à ce brakpoint telles que par exemple: 
+- Un nom
+- Des actions: 
+    - Jouer un son quand le breakpoint est atteinds
+    - Lancer une commande
+    - Afficher des logs
+- Une condition
+- Et bien d'autres...
+
+De cette manière vous pourrez utiliser les breakpoints de manière bien plus efficace et bien plus poussée.
+
+
+# Conclusion
+
+
+Voilà pour ces quelques astuces concernant Xcode. J'espère vous avoir appris certaines d'entre elles et qu'elles se montrerons utiles dans votre développement.
+
+Il existe bien évidemment d'autres astuces, c'est pourquoi je vous invite à me faire part de celles que vous connaissez, celles-ci feront peut-être l'object d'un prochain article. 
