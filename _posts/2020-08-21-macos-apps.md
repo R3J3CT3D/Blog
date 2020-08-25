@@ -7,9 +7,9 @@ comments: true
 ---
 
 
-Ce blog étant principalement orienté développement iOS, je suppose que si vous êtes un lecteur régulier vous devez posséder un Mac (le développement d'applications iOS requière un Mac).
+Ce blog étant principalement orienté développement iOS, je suppose que si vous êtes un lecteur régulier vous devez posséder un Mac, car, comme vous le savez (ou non), le développement d'applications iOS requière l'utilisation d'un Mac (enfin, d'un ordinateur tournant sous MacOS, mais c'est une autre histoire).
 
-C'est pourquoi aujourd'hui nous allons voir quelques applications pour MacOS afin de rendre votre expérience avec votre système d'exploitation plus agréable et plus productive. Commençons sans plus tarder !
+C'est pourquoi aujourd'hui nous allons voir quelques applications pour MacOS afin de rendre votre expérience avec votre système d'exploitation plus agréable et plus productive. J'espère que vous ne les connaitrez pas afin que vous puissiez découvrir de nouvelles choses. Commençons sans plus tarder !
 
 
 # BetterSnapTool
@@ -47,13 +47,13 @@ Vous pourrez depuis l'application, configurer pendant combien de temps votre ord
 ![3](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/macos-apps/3.png){: .mx-auto.d-block :}
 
 
-De cette manière, vous pourrez ouvrir vos applications facilement, peu importe si le `Dock` est affiché à l'écran ou non.
+De cette manière, vous pourrez ouvrir vos applications facilement, peu importe si le `Dock` est affiché à l'écran ou non. Très utile lorsque vous êtes actuellement dans une application en plein écran par exemple.
 
 
 # Hidden
 
 
-[Hidden](https://github.com/dwarvesf/hidden) développée par [Dwarves Foundation](https://github.com/dwarvesf) est une application permettant de cacher certaines applications ou certains éléments de la barre de menu.
+[Hidden](https://github.com/dwarvesf/hidden) développée par [Dwarves Foundation](https://github.com/dwarvesf) est une application permettant de réorganiser certaines applications ou certains éléments de la barre de menu. L'application permet également, comme son nom l'indique, de cacher certains éléments que nous ne voudrions pas toujours afficher à l'écran.
 
 
 ![4](https://raw.githubusercontent.com/sonnyfournier/blog/master/assets/img/macos-apps/4.gif){: .mx-auto.d-block :}
@@ -87,4 +87,6 @@ Bien entendu, l'application est entièrement parametrable pour convenir à votre
 
 Nous allons nous arrêtez là pour aujourd'hui, mais ce n'est que partie remise car nous verrons d'autres applications utiles dans le futur. En attendant j'espère que celles que je viens de vous présenter vous aurons plu et même qu'elles pourront vous être utiles !
 
-Comme d'habitude, n'hésitez pas à me proposer les vôtres, celles-ci se montreront peut-être utiles à d'autres.
+Vous avez peut-être pu remarquer que je n'ai pas évoqué ici d'applications en ligne de commande. C'est tout simplement parce que ces applications feront partis d'un futur article !
+
+Comme d'habitude, n'hésitez pas à me proposer les vôtres, je pourrais alors les partager et celles-ci se montreront peut-être utiles à d'autres.
