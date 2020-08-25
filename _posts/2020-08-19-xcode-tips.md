@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Rédaction en cours] Quelques astuces pratiques pour Xcode
+title: (Rédaction en cours) Quelques astuces pratiques pour Xcode
 subtitle: Soyez plus productif avec votre IDE
 tags: [xcode]
 comments: true
